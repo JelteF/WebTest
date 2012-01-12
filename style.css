@@ -1,11 +1,37 @@
+body{
+	display:block;
+	width:986px;
+	margin:auto;
+	background-color:#D8D8D8;
+}
+.content{
+	background-color:white;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+}
 .top .logo{
 	display:block;
 	width:984px;
-	margin:1px
+	height:75px;
+	color:black;
+	border-bottom-style:solid;
+	border-width:1px;
 	}
+.top .banner{
+	display:block;
+	width:984px;
+	height:124px;
+}
+.menu{
+	display:block;
+	width:984px;
+	height:36px;
+}
 .menu ul  {
 	color:white;
-	padding:0px;
+	padding:0;
+	margin:0;
 	list-style:none;
 	}
 .menu ul li{
@@ -17,7 +43,7 @@
 .menu ul li a{
 	display:block;
 	width:100px;
-	margin-left:1px;
+	margin-right:1px;
 	margin-bottom:2px;
 	text-decoration:none;
 	color:white;
@@ -50,16 +76,12 @@
 }
 
 .menu .filler {
-	margin-left:1px;
-	padding: 0px 0px 36px 220px;
+	margin-right:1px;
+	padding: 0px 0px 36px 177px;
 	background-color:#202020;
 }
 .menu .search {
-	margin-left:1px;
-	padding: 5px 15px 5px 15px;
+	padding: 5px 10px 5px 10px;
 	background-color:#202020;
 }
 
-body{
-	background-color:#D8D8D8;
-}
